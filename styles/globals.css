@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-number {
+    @apply bg-[#066BD0] py-2 px-6 rounded-full text-base font-medium
+    text-white focus:outline-none 
+    hover:shadow-md hover:bg-[#004892] transition-all;
+  }
+  .btn {
+    @apply bg-[#066BD0] py-3 px-8 rounded-full text-base font-medium
+    text-white focus:outline-none 
+    hover:shadow-md hover:bg-[#004892] transition-all;
+  }
+  .link {
+    @apply cursor-pointer text-white text-base 
+    font-medium hover:text-[#BDBDBD] transition-all;
+  }
+
+  #li {
+    @apply link
+  }
+
+  #li.black {
+    @apply text-black hover:text-[#575757]
+  }
+
+  #fimenu.black {
+    @apply text-black hover:text-[#575757]
+  }
+
+  .box {
+    @apply bg-[#ffffff] pb-[10%] pt-[10%] p-4 rounded-lg items-center shadow-2xl border border-[#E7E7E7]
+  }
+
+  .box-credit {
+    @apply bg-[#ffffff] rounded-lg items-center shadow-2xl border border-[#E7E7E7] ml-2
+  }
+
+}
