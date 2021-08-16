@@ -12,16 +12,19 @@ const Menu = ({ className }) => (
                     FAÇA UMA SIMULAÇÃO
                 </Button>
             </ScrollIntoView>
+            <hr />
             <ScrollIntoView selector="#about">
                 <Button id="li-mb" className={styles.navigation__item}>
                     QUEM SOMOS
                 </Button>
             </ScrollIntoView>
+            <hr />
             <ScrollIntoView selector="#steps">
                 <Button id="li-mb" className={styles.navigation__item}>
                     ETAPAS DO CONSÓRCIO
                 </Button>
             </ScrollIntoView>
+            <hr />
             <ScrollIntoView selector="#questions">
                 <Button id="li-mb" className={styles.navigation__item}>
                     DÚVIDAS

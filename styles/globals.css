@@ -23,7 +23,7 @@
   }
 
   #li-mb {
-    @apply link text-black text-xl pb-4
+    @apply link text-black text-xl p-4
   }
 
   #li.black {

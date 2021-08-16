@@ -87,7 +87,7 @@ export default function Footer() {
                     </Link>
                     </div>
 
-                    <p>© 2021 Re-Invest Intermediação de Consórcio Eireli. CNPJ: 34.958.779/0001-74.<br /> Todos os direitos reservados | Site criado com ♡ por <a className="hover:cursor-pointer hover:underline" href="https://instagram.com/caiogarciap">@caiogarciap</a>.</p>
+                    <p className="ml-5">© 2021 Re-Invest Intermediação de Consórcio Eireli. CNPJ: 34.958.779/0001-74.<br /> Todos os direitos reservados | Site desenvolvido com ♡ por <a className="hover:cursor-pointer hover:underline" href="https://instagram.com/caiogarciap">@caiogarciap</a>.</p>
                 </div>
             </div>
         </div>

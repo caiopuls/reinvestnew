@@ -12,7 +12,7 @@ class HamburgerMenu extends React.Component {
   };
 
   handleClick = () => {
-    console.log("Abc");
+    console.log("G3T 0ut of H3R3!!!");
     this.setState({
       isOpen: !this.state.isOpen
     });
