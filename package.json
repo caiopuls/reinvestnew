@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
@@ -16,7 +17,6 @@
     "@tailwindcss/line-clamp": "^0.2.1",
     "aos": "^2.3.4",
     "clsx": "^1.1.1",
-    "firebase": "^8.9.1",
     "framer-motion": "^4.1.17",
     "hamburger-react": "^2.4.1",
     "mdb-ui-kit": "^3.9.0",
