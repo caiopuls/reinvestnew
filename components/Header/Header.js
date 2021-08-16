@@ -1,7 +1,7 @@
 /* eslint-disable react/display-name */
 /* eslint-disable import/no-anonymous-default-export */
 import Image from 'next/image';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import ScrollIntoView from 'react-scroll-into-view';
 
@@ -9,36 +9,23 @@ import LogoDefault from '../../assets/logoreinvest-ademicon.png';
 import LogoBlack from '../../assets/logoreinvest-ademicon-black.png';
 
 import PhoneIcon from '@material-ui/icons/Phone';
-import { FiMenu } from 'react-icons/fi';
 
 
 import Aos from "aos"
 import "aos/dist/aos.css"
-import { Button, Drawer, List, ListItem } from '@material-ui/core';
+import { Button } from '@material-ui/core';
+import HamburgerMenu from '../HamburgerMenu/HamburgerMenu';
 
 export default ({ black, small }) => {
-  const [state, setState] = React.useState(false)
 
-  const toggleDrawer = (open) => (event) => {
-    setState(open)
-  }
-
-  const list = () => {
-    <div onClick={toggleDrawer(false)}>
-      <List>
-        <ListItem button>Funcionouu!</ListItem>
-        <ListItem button>Funcionouu!</ListItem>
-        <ListItem button>Funcionouu!</ListItem>
-      </List>
-    </div>
-  }
+    
 
     useEffect(() => {
         Aos.init({ duration: 1600 });
     }, []);
 
     return (
-        <header>
+        <header id="app">
             <div data-aos="fade-down" id="header" className={black ? 'black' : ''}>
 
 
@@ -94,22 +81,15 @@ export default ({ black, small }) => {
                                 </Button>
                             </ScrollIntoView>
                         </ul>
-                        
-                        <div id="MobileMenu" className={black ? 'black' : ''}>
-                        <Button onClick={toggleDrawer(true)} className="mr-16">
-                          <FiMenu id="fimenu" className="h-10 w-10 text-white flex items-center justify-center" />
-                        </Button>
-                        <Drawer
-                          anchor={'right'}
-                          open={state}
-                          onClose={toggleDrawer(false)}
-                        >
-                          {list()}
-                        </Drawer>
-                        </div>
 
-  
-                        
+                        <div id="MobileMenu">
+                        <Button>
+                            <HamburgerMenu />
+                        </Button>
+                        </div>
+                       
+
+
 
                     </div>
                 </div>

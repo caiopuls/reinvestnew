@@ -22,6 +22,10 @@
     @apply link
   }
 
+  #li-mb {
+    @apply link text-black text-2xl pb-4
+  }
+
   #li.black {
     @apply text-black hover:text-[#575757]
   }
