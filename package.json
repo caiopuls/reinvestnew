@@ -18,13 +18,13 @@
     "aos": "^2.3.4",
     "clsx": "^1.1.1",
     "core-js": "^3.16.2",
-    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
     "firebase-tools": "^9.16.5",
     "framer-motion": "^4.1.17",
     "hamburger-react": "^2.4.1",
     "mdb-ui-kit": "^3.9.0",
-    "next": "^10.0.4",
-    "node-sass": "^6.0.1",
+    "next": "^11.1.0",
+    "node-sass": "^5.0.0",
     "react": "17.0.2",
     "react-burger-menu": "^3.0.6",
     "react-dom": "17.0.2",
@@ -32,16 +32,19 @@
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-script": "^2.0.5",
-    "react-scripts": "^4.0.3",
+    "react-scripts": "^1.1.5",
     "react-scroll-into-view": "^1.9.4",
-    "sass-loader": "^12.1.0",
-    "styled-components": "^5.3.0"
+    "styled-components": "^5.3.0",
+    "url-loader": "^4.1.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.1",
+    "css-loader": "^6.2.0",
     "eslint": "7.32.0",
     "eslint-config-next": "^0.2.4",
     "postcss": "^8.3.6",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
     "tailwindcss": "^2.2.7"
   }
 }
