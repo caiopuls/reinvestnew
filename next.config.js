@@ -1,3 +1,5 @@
 module.exports = {
-  distDir: 'build',
-}
+  images: {
+    domains: ['i.imgur.com'],
+  },
+ }
