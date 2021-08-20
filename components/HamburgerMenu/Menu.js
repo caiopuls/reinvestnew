@@ -30,6 +30,12 @@ const Menu = ({ className }) => (
                     DÚVIDAS
                 </Button>
             </ScrollIntoView>
+            <hr />
+            <ScrollIntoView selector="#contact">
+                <Button id="li-mb" className={styles.navigation__item}>
+                    CONTATO
+                </Button>
+            </ScrollIntoView>
         </ul>
     </div>
 );

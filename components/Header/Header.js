@@ -80,6 +80,11 @@ export default ({ black, small }) => {
                                     DÚVIDAS
                                 </Button>
                             </ScrollIntoView>
+                            <ScrollIntoView selector="#contact">
+                                <Button id="li" className={black ? 'black' : ''}>
+                                    CONTATO
+                                </Button>
+                            </ScrollIntoView>
                         </ul>
 
                         <div id="MobileMenu">
