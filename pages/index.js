@@ -347,7 +347,7 @@ export default () => {
       </section>
 
       <section id="credit">
-      <h1 className="pt-36 text-[#15122D] flex justify-center items-center text-4xl font-Lato font-medium">COMO USAR SEU CRÉDITO</h1>
+      <h1 className="pt-36 text-[#15122D] flex justify-center items-center text-center text-4xl font-Lato font-medium pl-2 pr-2">COMO USAR SEU CRÉDITO</h1>
       <h2 id="secundario" className="text-lg text-[#7A7792] flex justify-center items-center
           pl-2 pr-2">Veja abaixo formas de como utilizar seu crédito com consórcio.</h2> 
       <hr id="styled" className="m-auto mb-12 mt-4" />

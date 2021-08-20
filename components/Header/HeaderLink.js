@@ -3,7 +3,6 @@
 import Image from 'next/image';
 import React, { useEffect } from 'react';
 import Link from 'next/link';
-import ScrollIntoView from 'react-scroll-into-view';
 
 import LogoDefault from '../../assets/logoreinvest-ademicon.png';
 import LogoBlack from '../../assets/logoreinvest-ademicon-black.png';
@@ -78,6 +77,12 @@ export default ({ black, small }) => {
                                 DÚVIDAS
                             </Button>
                             </Link>
+                            <Link href="/#contact" passHref>
+                            <Button id="li" className={black ? 'black' : ''}>
+                                CONTATO
+                            </Button>
+                            </Link>
+                            
                         </ul>
 
                        
